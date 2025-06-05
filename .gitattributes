@@ -1,2 +1,42 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize text files to LF line endings
+* text=auto eol=lf
+
+# Python source files
+*.py linguist-language=Python
+
+# YAML configs
+*.yaml text
+*.yml text
+
+# Model weights and checkpoints (binary files)
+*.pt binary
+*.onnx binary
+*.pb binary
+*.tflite binary
+*.weights binary
+
+# Dataset formats
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.bmp binary
+*.tiff binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+*.zip binary
+
+# Ignore logs and results from git archive
+logs/* export-ignore
+runs/* export-ignore
+results/* export-ignore
+outputs/* export-ignore
+ultralytics/* export-ignore
+wandb/* export-ignore
+
+# Optional: ignore local system or dev-only files
+*.log text
+*.csv text
+.env export-ignore
+*.local.* export-ignore

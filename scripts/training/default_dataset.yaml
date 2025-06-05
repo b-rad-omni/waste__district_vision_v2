@@ -1,0 +1,20 @@
+# Default dataset configuration for waste district vision training
+path: datasets/processed/waste_detection
+train: train
+val: val
+test: test
+
+# Classes - waste container detection
+nc: 7  # number of classes
+names: ['tote', 'box', 'small bag', 'large bag', 'household trash can', 'bucket', 'large foreign object']
+
+# Dataset info
+description: "Waste container detection dataset for district vision system"
+version: "1.0.0"
+created: "2024-05-24"
+
+# Training parameters
+roboflow:
+  workspace: null
+  project: null
+  version: null

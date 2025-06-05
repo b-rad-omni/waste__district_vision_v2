@@ -1,0 +1,37 @@
+# Baseline training configuration
+model:
+  name: yolov8n.pt
+  pretrained: true
+
+data:
+  path: datasets/processed/current/data.yaml
+  
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.01
+  device: auto
+  patience: 10
+  save_period: 10
+  
+augmentation:
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 0.0
+  translate: 0.1
+  scale: 0.5
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 1.0
+  mixup: 0.0
+
+optimization:
+  optimizer: auto
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1

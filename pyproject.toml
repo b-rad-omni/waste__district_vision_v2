@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waste-district-vision"
+version = "0.1.0"
+description = "Computer vision system for waste district monitoring"
+requires-python = ">=3.8"
+
+# Only the dependencies you actually use (from setup.py)
+dependencies = [
+    "opencv-python",
+    "numpy", 
+    "ultralytics",
+    "PyYAML",
+    "schedule",
+]
+
+# Package configuration to match your setup.py
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

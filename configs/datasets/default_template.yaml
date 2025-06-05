@@ -1,0 +1,14 @@
+# Dataset configuration template
+path: datasets/processed/your_dataset
+train: train
+val: val
+test: test
+
+# Classes
+nc: 4  # number of classes
+names: ['class1', 'class2', 'class3', 'class4']
+
+# Dataset info
+description: "Description of your dataset"
+version: "1.0.0"
+created: "2024-05-24"

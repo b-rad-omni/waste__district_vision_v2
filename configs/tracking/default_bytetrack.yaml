@@ -1,0 +1,30 @@
+# bytetrack.yaml — tuned for 10s bursts @ 5 FPS (50 frames total)
+
+tracker_type: bytetrack
+
+# Detection thresholds
+track_high_thresh: 0.60
+track_low_thresh: 0.50
+new_track_thresh: 0.80
+
+# Association thresholds
+match_thresh: 0.90
+proximity_thresh: 0.10
+
+# Memory and timing
+track_buffer: 90       
+frame_rate: 30
+lost_track_thresh: 0.30
+
+# Required by YOLOv8
+mot20: False
+fuse_score: True
+appearance: True
+appearance_thresh: 0.25
+
+track_confirmed_thresh: 3  # Need 3 frames to confirm track
+min_track_len: 3
+
+kalman_format: "xyah" 
+
+agnostic_nms: True          # Minimum track length to display

@@ -1,0 +1,144 @@
+# Datasets and data files
+datasets/*
+clips/*
+model_registry.json
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.local.*
+*local*
+*csv*
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.weights
+models/archived
+models/pretrained
+models/production
+models/trained
+weights/
+checkpoints/
+
+# YOLOv8 runs and outputs
+runs/
+ultralytics/
+wandb/
+outputs/
+
+# Experiment artifacts
+experiments/*/runs/
+experiments/*/logs/
+experiments/*/results/
+results/*
+predictions/*
+
+# Logs
+logs/
+*.log
+log/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+config.ini
+
+# Temporary files
+temp/
+tmp/
+cache/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter notebooks (keep templates only)
+notebooks/*.ipynb
+!notebooks/template_*.ipynb
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# miscellaneous
+*.txt
+!requirements*.txt
+!setup.txt
+!README.txt
+!LICENSE.txt
+*.bak
+*.backup
+*.orig
+*.save
+*.lnk
+desktop.ini
+*.patch
+*.diff
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.iso
+*.dmg
+
+*code*
+# Ignore all Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Ignore all Python bytecode files
