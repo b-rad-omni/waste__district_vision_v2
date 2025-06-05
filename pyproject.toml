@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "waste-district-vision"
 version = "0.1.0"
 description = "Computer vision system for waste district monitoring"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 
 # Only the dependencies you actually use (from setup.py)
 dependencies = [
