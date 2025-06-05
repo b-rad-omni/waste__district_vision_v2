@@ -69,8 +69,4 @@ ultralytics==8.3.144
 ultralytics-thop==2.0.14
 urllib3==2.4.0
 uvicorn==0.34.2
-# Editable Git install with no remote (waste-district-vision==0.1.0)
--e c:\users\brad\documents\github\waste__district_vision_v2
 watchdog==6.0.0
-# Editable Git install with no remote (yolov8-quality-control==1.0.0)
--e c:\users\brad\documents\github\waste__district_vision_v2
