@@ -16,7 +16,7 @@ https://github.com/cvat-ai/cvat
 [![Project Board](https://img.shields.io/badge/Project%20Board–Kanban-blue)](https://github.com/users/b-rad-omni/projects/2)  
 > **Live Project Board** – click the badge above to see To‑Do, In‑Progress, and Done.
 
-This project is currently complete and has delivered a MVP (Minimal Viable Product). While the client was impressed with the detection pipeline and infraction system, the hardware requirements were too high to implement with the DVR bottleneck and price point for their current system. They have opted to review when planning future system upgrades.
+This project is currently complete and has delivered a MVP (Minimal Viable Product) to the client. Plans for future iteration and site deployment is in place.
 
 ## Model Weights
 Due to file size limitations, trained model weights cannot be uploaded to GitHub. If you would like a copy of the trained weights, please contact the maintainer via GitHub.
