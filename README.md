@@ -36,6 +36,9 @@ Examples:
 <img src="https://github.com/b-rad-omni/waste__district_vision_v2/blob/db1f7ea32edfcdb1564de6fa8bac43f09977276a/public_still2.jpg" alt="demo still 2" width=30% height=30%>
 <img src="https://github.com/b-rad-omni/waste__district_vision_v2/blob/db1f7ea32edfcdb1564de6fa8bac43f09977276a/public_still3.jpg" alt="demo still 3" width=30% height=30%>
 
+Check out the video demo here:
+https://github.com/b-rad-omni/waste__district_vision_v2/blob/9791abbdec08bf29fb2073c3eb3f0bb715ae809e/public_demo.mp4
+
 
 ## 🚀 Quickstart
 
