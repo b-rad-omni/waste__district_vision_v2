@@ -4,13 +4,14 @@ import multiprocessing
 def main():
     # Initialize model
     
-    #model = YOLO("C:/Users/Brad/Documents/GitHub/waste-district-vision/runs/detect/yolov8s_New_dataset/weights/best.pt")  # or other model 
-    model = YOLO("c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/models/pretrained/yolov8s.pt")  # Load the YOLOv8s model
+    model = " path/to/your/yolov8n.pt"  # Update with your model path
+    model = YOLO(model)  # Load the YOLO model
     
     # Train with 1080p resolution
     model.train(
         
-    data='c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/scripts/training/dataset.yaml',
+    data='path/to/your/dataset.yaml',  # Update with your dataset YAML file
+    
         epochs=60,               # DEFAULT: 100 | Total training epochs
                                 # RECOMMENDATION: Start with 50, use early stopping
         

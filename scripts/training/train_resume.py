@@ -3,7 +3,8 @@ import multiprocessing
 
 def main():
     # Use LAST.PT not BEST.PT for resuming
-    model_path = "C:/Users/Brad/Documents/GitHub/waste-district-vision/runs/detect/yolov8_autopipe_v5-23_merged_small_optimizedv22/weights/last.pt"
+    model_path = "./runs/detect/train/last.pt"  # Path to the last checkpoint
+    # Ensure this path points to your dataset YAML file
     data_yaml = "./dataset.yaml"
     
     model = YOLO(model_path)
