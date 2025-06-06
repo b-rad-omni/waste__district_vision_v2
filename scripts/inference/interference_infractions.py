@@ -2,17 +2,17 @@ import cv2
 import time
 import numpy as np
 import os
+import yaml
 from datetime import datetime
 from ultralytics import YOLO
 from interference.bucket_infraction_detector import BucketInfractionDetector
 
 def run_detection_with_infractions():
     # Your existing paths
-    #model_path = 'c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/models/trained/yolov8_autopipe_v5-23_merged_small_optimizedv2/weights/best.pt'
-    model_path = 'c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/models/trained/yolov8_Waste_District_Vision_v2_1st/weights/best.pt'
-    #source_path = 'c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/datasets/test_sets/timeline_1.mp4'
-    source_path = 'c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/datasets/test_sets/Demo.mkv'
-    tracker_config = 'c:/Users/Brad/Documents/GitHub/waste__district_vision_v2/configs/tracking/buck_byte30.yaml'
+    model_path = 'path/to/your/yolo_model.pt'  # Update with your model path
+    
+    source_path = 'path/to/your/video.mp4'  # Update with your video path
+    tracker_config = "bytetrack.yaml"  # Update with your tracker config path
     
     # Load model
     model = YOLO(model_path)
