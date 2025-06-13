@@ -11,7 +11,7 @@ https://github.com/cvat-ai/cvat
 
 **Technology Stack:** YOLOv8, OpenCV, Streamlit, Python
 
-**Maintained by Stafford Solutions, LLC**
+**Maintained by Stafford Solutions **
 
 [![Project Board](https://img.shields.io/badge/Project%20Board–Kanban-blue)](https://github.com/users/b-rad-omni/projects/2)  
 > **Live Project Board** – click the badge above to see To‑Do, In‑Progress, and Done.
