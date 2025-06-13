@@ -167,4 +167,4 @@ This project includes Ultralytics YOLOv8 (© Ultralytics) under the GNU Affero
 - Streamlit
 - Python Libraries
 
-© 2025 Stafford Solutions, LLC
+© 2025 Stafford Solutions
